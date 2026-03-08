@@ -1,4 +1,4 @@
-## HOW TO CLAIM AWS FREE 
+## HOW TO CLAIM AWS FREE
 
 1. BUKA Laman https://aws.amazon.com/
 

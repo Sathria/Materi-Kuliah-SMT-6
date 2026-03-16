@@ -17,14 +17,36 @@
 
 3. Setting up remote SSH dengan Putty
     - isi ipv4 addres public data berasal dari instance masing2
+
+    ![alt text](image-4.png)
+
     -port SSh (22)
-    -Load Private key.ppk dimeu connection->Auth->Credential
+    -Load Private key.ppk dimenu connection-> SSh-> Auth-> Credential
+
+    ![alt text](image-5.png)
+
     - User dari instance masing-masing (ubuntu)
+
+    ![alt text](image-6.png)
 
 4. Setiap awal Remote kita lakukan Patchinhg OS
     - sudo apt-get update && sudo apt-get upgrade
+    
+    ![alt text](image-7.png)
 
 5. Coba lakukan instalasi Web Server
 dalam keadaan kosong
 
-Install salah satu web server sudo apt install nginx
+![alt text](image-8.png)
+
+Install salah satu web server 
+- sudo apt install nginx
+lalu masukan ipv4 publicnya di browser dengan http bukan https
+![alt text](image-9.png)
+
+- Tambahan jika ingin mengedit tampilan Welcome to nginx
+- ketik di terminal ubuntu sudo nano /var/www/html/index.nginx-debian.html
+- edit sesuai keinginan
+- save dan exit dengan mengetik ctrl + o lalu enter
+- untuk menghentikan nano ketik ctrl + x
+![alt text](image-10.png)

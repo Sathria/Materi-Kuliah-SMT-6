@@ -21,14 +21,19 @@
     - buka file index.html dengan code editor
     - akan gagal melakukan editing - Permission denied
     - karena kita masuk user ubuntu tidak punya akses untuk write
+    
 6. Ubah Hak Akses Folder Web Services Area
     - ke Terminal PowerShell
     - masukan command (sudo chown -R ubuntu:ubuntu /var/www/html)
     - cek kembali hak akses folder dengan command (ls -l /var/www/html)
 
+![alt text](image-2.png)
+![alt text](image-4.png)
 
 
 
 7. kita lakukan editing di file index.html setelah hak akses folder sudah diubah
 
-8. Pastikan Design Responsive 
+8. Pastikan Design Responsive
+![alt text](image-3.png) 
+![alt text](image-5.png)

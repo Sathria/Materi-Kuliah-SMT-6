@@ -35,7 +35,8 @@
 15. Commit Changes ke GitHub dari lokal
 16. Push Changes ke GitHub
 17. Cek di Github, apakah actions jalan dan berhasil
-![alt text](image-3.png)
+![alt text](image-6.png)
+
 
 18. Cek di AWS, apakah container berjalan dengan baik
 ![alt text](image-4.png)

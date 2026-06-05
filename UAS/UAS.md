@@ -35,21 +35,7 @@
     "docker compose version"
 ![alt text](image-4.png)
 
-### 6. Upload Folder Project ke EC2 melalui PowerShell
-JALANKAN
-"scp -i "D:\Study Recap\uas-2388010022-key.pem" -r "D:\Study Recap\uas-cloud" ubuntu@IP PUBLIC TERBARU:~/"
-
-LALU JALANKAN DOCKER COMPOSE
-"cd ~/uas-cloud"
-"cp .env.example .env"
-"docker compose config"
-"docker compose up -d --build"
-
-LALU CEK CONTAINER
-"docker compose ps"
-![alt text](image-5.png)
-
-### 7. Set Up Docker Hub
+### 6. Set Up Docker Hub
     BUAT REPOSITORY BARU PADA DOCKER HUB
     "detektifpesugihan/uas-static"
     "detektifpesugihan/uas-dinamic"
@@ -59,7 +45,7 @@ BUAT ACCESS TOKEN DOCKER HUB
 "Permission : Read & Write"
 ![alt text](image-7.png)
 
-### 8. Login Docker ke EC2 Melalui PowerShell
+### 7. Login Docker ke EC2 Melalui PowerShell
 "docker login -u gamine1"
 (Saat diminta password, paste Docker Hub access token, bukan password akun biasa.)
 
@@ -70,7 +56,7 @@ lalu push image ke docker hub "docker compose push static-cv dynamic-app"
 
 ![alt text](image-8.png)
 
-### 9. Set Up Github Repository
+### 8. Set Up Github Repository
 BUAT REPOSITORY BARU
 "https://github.com/sathria/uas-cloud.git"
 
@@ -84,21 +70,21 @@ LALU PUSH FOLDER PROJECT KE REPOSITORY
 
 ![alt text](image-9.png)
 
-### 10. Set Up Github Secret
+### 9. Set Up Github Secret
 ![alt text](image-10.png)
 
 
-### 11. Set Up Github Action
+### 10. Set Up Github Action
 ![alt text](image-11.png)
 
-### 12. Tes Menjalankan Web Static & Dynamic
+### 11. Tes Menjalankan Web Static & Dynamic
     Static
 ![alt text](image-12.png)
 
     Dynamic
 ![alt text](image-14.png)
 
-### 13. Live test zero touch
+### 12. Live test zero touch
 ![alt text](image-16.png)
     Static
     "Menambahkan UAS_23880010002 PADA nama"

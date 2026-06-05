@@ -96,4 +96,14 @@ LALU PUSH FOLDER PROJECT KE REPOSITORY
 ![alt text](image-12.png)
 
     Dynamic
-![alt text](image-13.png)
+![alt text](image-14.png)
+
+### 13. Live test zero touch
+![alt text](image-16.png)
+    Static
+    "Menambahkan UAS_23880010002 PADA nama"
+![alt text](image-15.png)
+    Dynamic
+    "Judul Phantom Rating jadi UAS_2388010002"
+    ![alt text](image-17.png)
+
